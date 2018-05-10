@@ -156,7 +156,7 @@ int InseteList(pNode * pHead,int node,char data[20])
             p->pNext = pNew;
             pNew->pPre = p;
             pNew->pNext = q;
-
+			q->pPre = pNew;
             return 1;
         }
         len++;
