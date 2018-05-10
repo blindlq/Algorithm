@@ -17,6 +17,10 @@ void TraverseList(pNode *);//遍历链表
 void FreeList(pNode **);//释放链表
 int LengthList(pNode *);//链表长度
 int IsEmptyList(pNode *);//链表是否为空
+int InseteList(pNode *,int,int);//链表插入
+int DeleteList(pNode *,int);//链表删除
+int UpdateList(pNode *,int,int);//链表修改
+int SearchList(pNode *,int);//链表查询
 
 int main(void)
 {
@@ -28,7 +32,14 @@ int main(void)
 	pHead = InitList();
 	TraverseList(pHead);
 	printf("\n");
-	printf("%d",LengthList(pHead));
+	printf("请输入要插入的结点位置: ");
+    scanf("%d",&node);
+    printf("请输入要插入的值: ");
+    scanf("%d",&data);
+
+    InseteList(pHead,node,data);
+
+	TraverseList(pHead);
 	FreeList(&pHead);
 	
 	if(NULL == pHead){
@@ -102,12 +113,13 @@ void FreeList(pNode **pHead)
 	
 	while(p != (*pHead))
 	{
-		pNode *q = p; 
-		p = p->pNext;
-		free(q);
+		pNode *q = p->pNext; 
+		free(p);
+		p = q;
 	}
 	//最后释放首结点
-	free(*pHead);	
+	free(*pHead);
+	(*pHead) = NULL;	
 	return ;
 }
 //链表长度
@@ -137,6 +149,67 @@ int IsEmptyList(pNode *pHead)
 	
 	return 1;
 	
+}
+//链表的插入
+int InseteList(pNode *pHead ,int node ,int data)
+{
+	pNode *p = pHead;
+	int len = 0;
+
+	while(p->pNext != pHead)
+	{
+		if (len == node-1)
+		{
+			break;
+		}
+		p = p->pNext;
+		++len;
+
+	}
+
+	if (p == pHead || len<node-1)
+	{
+		return 0;
+	}
+
+	pNode * pNew = (pNode *)malloc(sizeof(pNode));
+
+	pNew->data = data;
+	pNew->pNext = p->pNext;
+	p->pNext = pNew;
+
+	return 1;
+
+}
+//链表的删除
+int DeleteList(pNode *pHead,int node)
+{
+	pNode *p = pHead;
+	pNode *pNew = NULL;
+	int len =0;
+
+	while(p->pNext != pHead)
+	{
+		if(len == node-1)
+		{
+			break;
+		}
+		++len;
+		p = p->pNext;
+	}
+
+	if (p == pHead || len<node-1)
+	{
+		return 0;
+	}
+
+	q = p->pNext->pNext;
+	printf("%d\n", p->pNext->data);
+	free(p->pNext);
+	p->pNext = q;
+
+	return 1;
+
 }
 
 
