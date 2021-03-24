@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9c1ea529-fcd4-454c-8d1a-605b8ec06609" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algotihm/leetCode/characterReplacement/characterReplacement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algotihm/leetCode/characterReplacement/characterReplacement.go" beforeDir="false" afterPath="$PROJECT_DIR$/algotihm/leetCode/characterReplacement/characterReplacement.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algotihm/leetCode/IntReverse/IntReverse.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110">
+            <state relative-caret-position="72">
               <caret line="4" selection-start-line="4" selection-end-line="12" />
             </state>
           </provider>
@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algotihm/leetCode/characterReplacement/characterReplacement.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-988">
-              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="91">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -204,14 +204,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="828" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19429348" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19429348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39945653" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -252,13 +251,18 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algotihm/leetCode/TowSum/TowSum.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algotihm/sort/QucikSort.php">
+    <entry file="file://$PROJECT_DIR$/algotihm/leetCode/characterReplacement/characterReplacement.php" />
+    <entry file="file://$PROJECT_DIR$/algotihm/leetCode/TowSum/TowSum.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1314">
-          <caret line="73" column="15" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="15" />
+        <state relative-caret-position="180">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algotihm/leetCode/IntReverse/IntReverse.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -269,29 +273,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algotihm/leetCode/IntReverse/IntReverse.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="4" selection-start-line="4" selection-end-line="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/algotihm/leetCode/TowSum/TowSum.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/algotihm/leetCode/TowSum/TowSum.go">
+    <entry file="file://$PROJECT_DIR$/algotihm/sort/QucikSort.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="1314">
+          <caret line="73" column="15" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="15" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algotihm/leetCode/characterReplacement/characterReplacement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algotihm/leetCode/characterReplacement/characterReplacement.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-988">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="91">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
